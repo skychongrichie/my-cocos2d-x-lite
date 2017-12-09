@@ -1,0 +1,12 @@
+1. 编译cocos2d-x-lite done
+2. 编写c++代码
+3. 编写自动绑定配置文件
+4. 编写手动绑定的c++代码
+
+problems:
+1. add CFNetwork.framework
+2. add libicucore.A.tbd
+
+localhost:kd-cocos2d-x chong$ git remote -v
+origin	git@fd-git:kd-cocos2d-x (fetch)
+origin	git@fd-git:kd-cocos2d-x (push)

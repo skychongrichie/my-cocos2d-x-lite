@@ -8,5 +8,6 @@
 #ifndef copra_h
 #define copra_h
 
+#include "cp_test.h"
 
 #endif /* copra_h */

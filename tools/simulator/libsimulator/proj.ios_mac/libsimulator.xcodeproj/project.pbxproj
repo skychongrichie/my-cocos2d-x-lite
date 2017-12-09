@@ -291,9 +291,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CAAF3781FD3E3AB007C1EF2 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 		9F72142C1A5C271F00DAED06 = {
 			isa = PBXGroup;
 			children = (
+				3CAAF3781FD3E3AB007C1EF2 /* test */,
 				9FD6FC0D1A5D281D0028EDC6 /* lib */,
 				9F7214361A5C271F00DAED06 /* Products */,
 			);

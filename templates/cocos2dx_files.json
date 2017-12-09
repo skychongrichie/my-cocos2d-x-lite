@@ -4964,6 +4964,13 @@
         "tools/tojs/cocos2dx_studio.ini", 
         "tools/tojs/cocos2dx_ui.ini", 
         "tools/tojs/creator.ini", 
-        "tools/tojs/genbindings.py"
+        "tools/tojs/genbindings.py",
+
+        "copra/copra.h",
+        "copra/cp_test.h",
+        "copra/cp_test.cpp",
+        "copra/jsb_copra_auto.hpp",
+        "copra/jsb_copra_auto.cpp",
+        "copra/api/jsb_copra_auto.api"
     ]
 }

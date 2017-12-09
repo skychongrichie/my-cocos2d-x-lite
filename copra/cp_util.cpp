@@ -6,3 +6,10 @@
 //
 
 #include <stdio.h>
+#include "cp_util.h"
+
+namespace copra {
+    int double_number(int n){
+        return n << 1;
+    }
+}
