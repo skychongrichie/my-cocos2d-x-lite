@@ -12,6 +12,8 @@
 		15A8A4491834C64F00142BE0 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5023810C17EBBCAC00990C9B /* Icon-114.png */; };
 		15A8A4881834C90F00142BE0 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A8A4871834C90E00142BE0 /* libcurl.dylib */; };
 		1AF4C403178663F200122817 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF4C402178663F200122817 /* libz.dylib */; };
+		3C0FF2381FDF45EF00BAB12B /* jsb_copra_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FF2361FDF45EF00BAB12B /* jsb_copra_manual.cpp */; };
+		3C0FF2391FDF45EF00BAB12B /* jsb_copra_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C0FF2361FDF45EF00BAB12B /* jsb_copra_manual.cpp */; };
 		3C5FC59B1FD3F58B00840057 /* cp_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FC5991FD3F58A00840057 /* cp_test.cpp */; };
 		3C5FC59C1FD3F58B00840057 /* cp_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FC5991FD3F58A00840057 /* cp_test.cpp */; };
 		3C5FC5A01FD407DF00840057 /* jsb_copra_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FC59E1FD407DF00840057 /* jsb_copra_auto.cpp */; };
@@ -177,6 +179,8 @@
 		15A8A4031834BDA200142BE0 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../../../../../build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		15A8A4871834C90E00142BE0 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		1AF4C402178663F200122817 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3C0FF2361FDF45EF00BAB12B /* jsb_copra_manual.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jsb_copra_manual.cpp; path = ../../../../../copra/jsb_copra_manual.cpp; sourceTree = "<group>"; };
+		3C0FF2371FDF45EF00BAB12B /* jsb_copra_manual.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = jsb_copra_manual.hpp; path = ../../../../../copra/jsb_copra_manual.hpp; sourceTree = "<group>"; };
 		3C5FC5991FD3F58A00840057 /* cp_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cp_test.cpp; path = ../../../../../copra/cp_test.cpp; sourceTree = "<group>"; };
 		3C5FC59A1FD3F58A00840057 /* cp_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cp_test.h; path = ../../../../../copra/cp_test.h; sourceTree = "<group>"; };
 		3C5FC59D1FD3F5BD00840057 /* copra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = copra.h; path = ../../../../../copra/copra.h; sourceTree = "<group>"; };
@@ -333,6 +337,8 @@
 				3C5FC59D1FD3F5BD00840057 /* copra.h */,
 				3CF453231FD9F6390021DA6C /* cp_util.h */,
 				3CF453241FD9F66A0021DA6C /* cp_util.cpp */,
+				3C0FF2361FDF45EF00BAB12B /* jsb_copra_manual.cpp */,
+				3C0FF2371FDF45EF00BAB12B /* jsb_copra_manual.hpp */,
 			);
 			name = copra;
 			sourceTree = "<group>";
@@ -685,6 +691,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07828FA18B4D72E00BD2287 /* SimulatorApp.mm in Sources */,
+				3C0FF2391FDF45EF00BAB12B /* jsb_copra_manual.cpp in Sources */,
 				5023813317EBBCE400990C9B /* AppDelegate.cpp in Sources */,
 				9FD6FC731A5D2A820028EDC6 /* ConsoleWindowController.m in Sources */,
 				C07828F818B4D72E00BD2287 /* main.m in Sources */,
@@ -700,6 +707,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5023812517EBBCAC00990C9B /* RootViewController.mm in Sources */,
+				3C0FF2381FDF45EF00BAB12B /* jsb_copra_manual.cpp in Sources */,
 				F293BB9C15EB831F00256477 /* AppDelegate.cpp in Sources */,
 				5023812417EBBCAC00990C9B /* main.m in Sources */,
 				5023811817EBBCAC00990C9B /* AppController.mm in Sources */,
