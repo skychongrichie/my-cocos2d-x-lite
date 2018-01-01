@@ -18,11 +18,6 @@
 #include "scripting/js-bindings/manual/ScriptingCore.h"
 #include "js_module_register.h"
 
-//copra{
-#include "jsb_copra_auto.hpp"
-#include "jsb_copra_manual.hpp"
-//copra}
-
 static const char *RUNTIME_JS_BOOT_SCRIPT = "script/jsb_boot.js";
 
 static bool reloadScript(const string& file)
@@ -174,11 +169,6 @@ bool RuntimeJsImpl::initJsEnv()
     }
     
     js_module_register();
-    
-    //copra{
-    ScriptingCore::getInstance()->addRegisterCallback(register_all_cp);
-    ScriptingCore::getInstance()->addRegisterCallback(register_all_cp_manual);
-    //copra}
     
     ScriptingCore::getInstance()->addRegisterCallback(register_FileUtils);
     ScriptingCore::getInstance()->start();

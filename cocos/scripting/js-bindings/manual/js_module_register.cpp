@@ -39,6 +39,11 @@
 #include "scripting/js-bindings/manual/platform/ios/JavaScriptObjCBridge.h"
 #endif
 
+//copra{
+#include "jsb_copra_auto.hpp"
+#include "jsb_copra_manual.hpp"
+//copra}
+
 USING_NS_CC;
 int js_module_register()
 {
@@ -81,6 +86,11 @@ int js_module_register()
     sc->addRegisterCallback(register_jsb_socketio);
     // Downloader
     sc->addRegisterCallback(register_all_cocos2dx_network);
+    
+    //copra{
+    sc->addRegisterCallback(register_all_cp);
+    sc->addRegisterCallback(register_all_cp_manual);
+    //copra}
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID || CC_TARGET_PLATFORM == CC_PLATFORM_IOS) && !defined(CC_TARGET_OS_TVOS)
     sc->addRegisterCallback(register_all_cocos2dx_experimental_video);

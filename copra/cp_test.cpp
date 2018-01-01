@@ -26,6 +26,15 @@ namespace copra {
         CCLOG("hello world");
     }
     
+    void Test::fight(){
+        if(delegate_)
+            delegate_->Fight();
+    }
+    
+    void Test::setDelegate(TestDelegate* delegate){
+        delegate_ = delegate;
+    }
+    
     int Test::getArrayLength(const vector<int>& list){
         return static_cast<int>(list.size()) ;
     }

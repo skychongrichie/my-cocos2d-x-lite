@@ -5,6 +5,22 @@
 JSClass  *jsb_copra_Test_class;
 JS::PersistentRootedObject *jsb_copra_Test_prototype;
 
+bool js_cp_Test_fight(JSContext *cx, uint32_t argc, JS::Value *vp)
+{
+    JS::CallArgs args = JS::CallArgsFromVp(argc, vp);
+    JS::RootedObject obj(cx, args.thisv().toObjectOrNull());
+    js_proxy_t *proxy = jsb_get_js_proxy(cx, obj);
+    copra::Test* cobj = (copra::Test *)(proxy ? proxy->ptr : NULL);
+    JSB_PRECONDITION2( cobj, cx, false, "js_cp_Test_fight : Invalid Native Object");
+    if (argc == 0) {
+        cobj->fight();
+        args.rval().setUndefined();
+        return true;
+    }
+
+    JS_ReportErrorUTF8(cx, "js_cp_Test_fight : wrong number of arguments: %d, was expecting %d", argc, 0);
+    return false;
+}
 bool js_cp_Test_getCount(JSContext *cx, uint32_t argc, JS::Value *vp)
 {
     JS::CallArgs args = JS::CallArgsFromVp(argc, vp);
@@ -108,6 +124,7 @@ void js_register_cp_Test(JSContext *cx, JS::HandleObject global) {
     };
 
     static JSFunctionSpec funcs[] = {
+        JS_FN("fight", js_cp_Test_fight, 0, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FN("getCount", js_cp_Test_getCount, 0, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FN("getArrayLength", js_cp_Test_getArrayLength, 1, JSPROP_PERMANENT | JSPROP_ENUMERATE),
         JS_FS_END

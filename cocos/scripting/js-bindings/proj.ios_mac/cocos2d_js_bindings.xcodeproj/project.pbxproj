@@ -94,6 +94,15 @@
 		1AB5E63418D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5E63118D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.cpp */; };
 		1AB5E63518D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB5E63218D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.h */; };
 		1AB5E63618D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB5E63218D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.h */; };
+		3CD469C71FF4640E00167D8F /* copra.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD469BE1FF4640D00167D8F /* copra.h */; };
+		3CD469C81FF4640E00167D8F /* jsb_copra_manual.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3CD469BF1FF4640D00167D8F /* jsb_copra_manual.hpp */; };
+		3CD469C91FF4640E00167D8F /* jsb_copra_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CD469C01FF4640D00167D8F /* jsb_copra_manual.cpp */; };
+		3CD469CA1FF4640E00167D8F /* cp_test.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD469C11FF4640E00167D8F /* cp_test.h */; };
+		3CD469CB1FF4640E00167D8F /* jsb_copra_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3CD469C21FF4640E00167D8F /* jsb_copra_auto.hpp */; };
+		3CD469CC1FF4640E00167D8F /* jsb_copra_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CD469C31FF4640E00167D8F /* jsb_copra_auto.cpp */; };
+		3CD469CD1FF4640E00167D8F /* cp_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CD469C41FF4640E00167D8F /* cp_test.cpp */; };
+		3CD469CE1FF4640E00167D8F /* cp_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CD469C51FF4640E00167D8F /* cp_util.cpp */; };
+		3CD469CF1FF4640E00167D8F /* cp_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD469C61FF4640E00167D8F /* cp_util.h */; };
 		4B22F4AA1B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B22F4A71B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.cpp */; };
 		4B22F4AB1B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B22F4A81B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h */; };
 		4B22F4AC1B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B22F4A81B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h */; };
@@ -208,6 +217,15 @@
 		1AB5E62A18D05BC80088DAA4 /* jsb_cocos2dx_ui_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = jsb_cocos2dx_ui_auto.hpp; sourceTree = "<group>"; };
 		1AB5E63118D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_cocos2dx_ui_manual.cpp; sourceTree = "<group>"; };
 		1AB5E63218D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsb_cocos2dx_ui_manual.h; sourceTree = "<group>"; };
+		3CD469BE1FF4640D00167D8F /* copra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = copra.h; path = ../../../../copra/copra.h; sourceTree = "<group>"; };
+		3CD469BF1FF4640D00167D8F /* jsb_copra_manual.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = jsb_copra_manual.hpp; path = ../../../../copra/jsb_copra_manual.hpp; sourceTree = "<group>"; };
+		3CD469C01FF4640D00167D8F /* jsb_copra_manual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsb_copra_manual.cpp; path = ../../../../copra/jsb_copra_manual.cpp; sourceTree = "<group>"; };
+		3CD469C11FF4640E00167D8F /* cp_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cp_test.h; path = ../../../../copra/cp_test.h; sourceTree = "<group>"; };
+		3CD469C21FF4640E00167D8F /* jsb_copra_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = jsb_copra_auto.hpp; path = ../../../../copra/jsb_copra_auto.hpp; sourceTree = "<group>"; };
+		3CD469C31FF4640E00167D8F /* jsb_copra_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsb_copra_auto.cpp; path = ../../../../copra/jsb_copra_auto.cpp; sourceTree = "<group>"; };
+		3CD469C41FF4640E00167D8F /* cp_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cp_test.cpp; path = ../../../../copra/cp_test.cpp; sourceTree = "<group>"; };
+		3CD469C51FF4640E00167D8F /* cp_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cp_util.cpp; path = ../../../../copra/cp_util.cpp; sourceTree = "<group>"; };
+		3CD469C61FF4640E00167D8F /* cp_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cp_util.h; path = ../../../../copra/cp_util.h; sourceTree = "<group>"; };
 		4B22F4A71B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsb_cocos2dx_experimental_webView_manual.cpp; path = experimental/jsb_cocos2dx_experimental_webView_manual.cpp; sourceTree = "<group>"; };
 		4B22F4A81B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsb_cocos2dx_experimental_webView_manual.h; path = experimental/jsb_cocos2dx_experimental_webView_manual.h; sourceTree = "<group>"; };
 		4BE089E01ADF965E00D65D4B /* jsb_cocos2dx_experimental_webView_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_cocos2dx_experimental_webView_auto.cpp; sourceTree = "<group>"; };
@@ -283,6 +301,7 @@
 		1551A334158F2AB200E66CFE = {
 			isa = PBXGroup;
 			children = (
+				3CD469BD1FF463D600167D8F /* copra */,
 				ED3057C61BEC7C8C0083C3ED /* libjs_static.a */,
 				ED0F39451BEC3E8E00E70AD4 /* libjs_static.a */,
 				BA539A011EB9CA48004EF002 /* libmozglue.a */,
@@ -291,6 +310,7 @@
 				1A5410A518B785A10016A3AF /* libjscocos2d iOS.a */,
 				1A5410A418B785A10016A3AF /* libjscocos2d Mac.a */,
 				1A119E4118BDF19200352BAA /* manual */,
+				3CD469A91FF462E000167D8F /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -421,6 +441,30 @@
 			path = ui;
 			sourceTree = "<group>";
 		};
+		3CD469A91FF462E000167D8F /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				4BE089EA1ADF967400D65D4B /* jsb_cocos2dx_experimental_webView_manual.h */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		3CD469BD1FF463D600167D8F /* copra */ = {
+			isa = PBXGroup;
+			children = (
+				3CD469BE1FF4640D00167D8F /* copra.h */,
+				3CD469C41FF4640E00167D8F /* cp_test.cpp */,
+				3CD469C11FF4640E00167D8F /* cp_test.h */,
+				3CD469C51FF4640E00167D8F /* cp_util.cpp */,
+				3CD469C61FF4640E00167D8F /* cp_util.h */,
+				3CD469C31FF4640E00167D8F /* jsb_copra_auto.cpp */,
+				3CD469C21FF4640E00167D8F /* jsb_copra_auto.hpp */,
+				3CD469C01FF4640D00167D8F /* jsb_copra_manual.cpp */,
+				3CD469BF1FF4640D00167D8F /* jsb_copra_manual.hpp */,
+			);
+			name = copra;
+			sourceTree = "<group>";
+		};
 		42AD25701AFF9DFC000176E2 /* experimental */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +516,7 @@
 				83A5661B18DA878400FC31A0 /* jsb_socketio.h in Headers */,
 				1A1D3B7A18C44FD000922D3C /* jsb_event_dispatcher_manual.h in Headers */,
 				1A119EF518BDF19200352BAA /* js_bindings_system_registration.h in Headers */,
+				3CD469CA1FF4640E00167D8F /* cp_test.h in Headers */,
 				BA4F598D1E28DE4A003F5096 /* js_network_manual.h in Headers */,
 				4B22F4AB1B159A7A0044C14E /* jsb_cocos2dx_experimental_webView_manual.h in Headers */,
 				1A119ED118BDF19200352BAA /* js_bindings_config.h in Headers */,
@@ -482,8 +527,11 @@
 				BA4F59861E28DCD3003F5096 /* jsb_cocos2dx_network_auto.hpp in Headers */,
 				1A119F0318BDF19200352BAA /* spidermonkey_specifics.h in Headers */,
 				1A119EE718BDF19200352BAA /* jsb_opengl_manual.h in Headers */,
+				3CD469CB1FF4640E00167D8F /* jsb_copra_auto.hpp in Headers */,
 				4D9BB1F91DFAB8B300B58565 /* jsb_box2d_auto.hpp in Headers */,
 				1A119EDF18BDF19200352BAA /* jsb_helper.h in Headers */,
+				3CD469C81FF4640E00167D8F /* jsb_copra_manual.hpp in Headers */,
+				3CD469C71FF4640E00167D8F /* copra.h in Headers */,
 				1A119ECB18BDF19200352BAA /* jsb_cocos2dx_extension_manual.h in Headers */,
 				1A119EEF18BDF19200352BAA /* js_bindings_system_functions.h in Headers */,
 				1A119EDD18BDF19200352BAA /* js_manual_conversions.h in Headers */,
@@ -496,6 +544,7 @@
 				FA6F1BBC1D816265007DD223 /* jsb_cocos2dx_dragonbones_manual.h in Headers */,
 				1AB5E62D18D05BC80088DAA4 /* jsb_cocos2dx_ui_auto.hpp in Headers */,
 				1A119ED918BDF19200352BAA /* js_bindings_opengl.h in Headers */,
+				3CD469CF1FF4640E00167D8F /* cp_util.h in Headers */,
 				FA6F1BB51D815C2C007DD223 /* jsb_cocos2dx_dragonbones_auto.hpp in Headers */,
 				4D9BB2C31DFE4E2600B58565 /* js_bindings_box2d_manual.h in Headers */,
 				BAB362161F347539002789F6 /* BaseJSAction.h in Headers */,
@@ -640,8 +689,10 @@
 				BAF638DC1B5F5DC900CDB43A /* jsb_cocos2dx_audioengine_auto.cpp in Sources */,
 				1A119EE518BDF19200352BAA /* jsb_opengl_manual.cpp in Sources */,
 				1A119F0518BDF19200352BAA /* jsb_cocos2dx_spine_manual.cpp in Sources */,
+				3CD469CD1FF4640E00167D8F /* cp_test.cpp in Sources */,
 				FA6F1BBA1D816265007DD223 /* jsb_cocos2dx_dragonbones_manual.cpp in Sources */,
 				4D9BB1F81DFAB8B300B58565 /* jsb_box2d_auto.cpp in Sources */,
+				3CD469CC1FF4640E00167D8F /* jsb_copra_auto.cpp in Sources */,
 				4D11DCCE1E486C9400DB6838 /* js_bindings_creator_manual.cpp in Sources */,
 				4DFA4C011CBCBC4E00E3B736 /* js_module_register.cpp in Sources */,
 				1A119E8318BDF19200352BAA /* jsb_cocos2dx_auto.cpp in Sources */,
@@ -649,6 +700,8 @@
 				4D9BB2C21DFE4E2600B58565 /* js_bindings_box2d_manual.cpp in Sources */,
 				BAB362141F347539002789F6 /* BaseJSAction.cpp in Sources */,
 				1AB5E63318D05BF30088DAA4 /* jsb_cocos2dx_ui_manual.cpp in Sources */,
+				3CD469C91FF4640E00167D8F /* jsb_copra_manual.cpp in Sources */,
+				3CD469CE1FF4640E00167D8F /* cp_util.cpp in Sources */,
 				1A119EC918BDF19200352BAA /* jsb_cocos2dx_extension_manual.cpp in Sources */,
 				1A119EDB18BDF19200352BAA /* js_manual_conversions.cpp in Sources */,
 				BA4F59841E28DCD3003F5096 /* jsb_cocos2dx_network_auto.cpp in Sources */,
@@ -813,7 +866,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../../external/mac/libs",
 				);
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../cocos/platform/mac $(SRCROOT)/../../../../external/mac/include/spidermonkey";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../cocos/platform/mac $(SRCROOT)/../../../../external/mac/include/spidermonkey $(SRCROOT)/../../../../copra";
 			};
 			name = Debug;
 		};
@@ -833,7 +886,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../../../external/mac/libs",
 				);
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../cocos/platform/mac $(SRCROOT)/../../../../external/mac/include/spidermonkey";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../../external/mac/include $(SRCROOT)/../../../../external/sources $(SRCROOT)/../../../../cocos/platform/mac $(SRCROOT)/../../../../external/mac/include/spidermonkey $(SRCROOT)/../../../../copra";
 			};
 			name = Release;
 		};

@@ -4969,8 +4969,12 @@
         "copra/copra.h",
         "copra/cp_test.h",
         "copra/cp_test.cpp",
+        "copra/cp_util.h",
+        "copra/cp_util.cpp",
         "copra/jsb_copra_auto.hpp",
         "copra/jsb_copra_auto.cpp",
+        "copra/jsb_copra_manual.hpp",
+        "copra/jsb_copra_manual.cpp",
         "copra/api/jsb_copra_auto.api"
     ]
 }

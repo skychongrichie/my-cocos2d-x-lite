@@ -9,6 +9,14 @@ var cp = cp || {};
 cp.Test = {
 
 /**
+ * @method fight
+ */
+fight : function (
+)
+{
+},
+
+/**
  * @method getCount
  * @return {int}
  */
